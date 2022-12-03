@@ -16,7 +16,7 @@ int main() {
     int t=0;
 
     // open textfile
-    textfile = fopen("C:\\Users\\BramWillems\\Documents\\aoc\\day1_1.txt","r");
+    textfile = fopen("day1_1.txt","r");
 
     // read file line by line
     while(fgets(line, MAX_LINE_LENGTH, textfile)){

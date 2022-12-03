@@ -17,13 +17,10 @@ int main() {
     int m[3] = {0,0,0};
     int result = 0;
 
-
-
-
     // do the whole shebang 3x
     for(int i=0;i<3;i++) {
         // open textfile
-        textfile = fopen("C:\\Users\\BramWillems\\Documents\\aoc\\day1_1.txt","r");
+        textfile = fopen("day1_1.txt","r");
         // read file line by line
         while(fgets(line, MAX_LINE_LENGTH, textfile)){
             // check if line is empty
@@ -42,6 +39,7 @@ int main() {
                 a = 0;
             }
         }
+        printf("%d", t);
         m[i] = t;
         result = result + m[i];
         t = 0;
